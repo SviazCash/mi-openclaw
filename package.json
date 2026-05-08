@@ -1,0 +1,10 @@
+{
+  "name": "mi-openclaw",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx openclaw gateway start"
+  },
+  "dependencies": {
+    "openclaw": "latest"
+  }
+}
