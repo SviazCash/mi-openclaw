@@ -1,0 +1,18 @@
+{
+  "gateways": {
+    "main": {
+      "port": 3000
+    }
+  },
+  "agents": {
+    "asistente": {
+      "model": "gpt-4o",
+      "skills": []
+    }
+  },
+  "providers": {
+    "openai": {
+      "apiKey": "${OPENAI_API_KEY}"
+    }
+  }
+}
