@@ -6,13 +6,13 @@
   },
   "agents": {
     "asistente": {
-      "model": "gpt-4o",
+      "model": "gemini-1.5-pro",
       "skills": []
     }
   },
   "providers": {
-    "openai": {
-      "apiKey": "${OPENAI_API_KEY}"
+    "google": {
+      "apiKey": "${GOOGLE_API_KEY}"
     }
   }
 }
