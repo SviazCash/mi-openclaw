@@ -1,12 +1,12 @@
 {
   "gateways": {
     "main": {
-      "port": 3000
+      "port": "${PORT}"
     }
   },
   "agents": {
     "asistente": {
-      "model": "gemini-1.5-pro",
+      "model": "gemini-1.5-flash",
       "skills": []
     }
   },
