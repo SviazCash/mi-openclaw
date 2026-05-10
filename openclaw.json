@@ -6,8 +6,7 @@
   },
   "agents": {
     "asistente": {
-      "model": "gemini-1.5-flash",
-      "skills": []
+      "model": "gemini-1.5-flash"
     }
   },
   "providers": {
