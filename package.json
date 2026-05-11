@@ -2,7 +2,7 @@
   "name": "mi-openclaw",
   "version": "1.0.0",
   "scripts": {
-    "start": "openclaw gateway start --config openclaw.json"
+    "start": "openclaw gateway run"
   },
   "dependencies": {
     "openclaw": "latest"
