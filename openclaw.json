@@ -1,17 +1,17 @@
 {
   "gateways": {
     "main": {
-      "port": "${PORT}"
-    }
-  },
-  "agents": {
-    "asistente": {
-      "model": "gemini-1.5-flash"
+      "bind": "0.0.0.0:${PORT}"
     }
   },
   "providers": {
     "google": {
       "apiKey": "${GOOGLE_API_KEY}"
+    }
+  },
+  "agents": {
+    "asistente": {
+      "model": "gemini-1.5-flash"
     }
   }
 }
