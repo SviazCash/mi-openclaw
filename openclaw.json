@@ -9,6 +9,12 @@
       "apiKey": "${GOOGLE_API_KEY}"
     }
   },
+  "interfaces": {
+    "telegram": {
+      "token": "${TELEGRAM_TOKEN}",
+      "agent": "asistente"
+    }
+  },
   "agents": {
     "asistente": {
       "model": "gemini-1.5-flash"
